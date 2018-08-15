@@ -7,6 +7,10 @@ body{
     background-color: blue;
     overflow: hidden;
 }
+topnav>.h {
+    float: right;
+}
+
 .topnav a {
     float: left;
     color: #f2f2f2;

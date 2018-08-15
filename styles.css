@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    background: url(images/png.jpg) no-repeat;
+    background-size: cover;
 }
 * {box-sizing: border-box}
 
@@ -54,7 +55,7 @@ button:hover {
 
 .container {
     padding: 16px;
-    background-color: white;
+    background-color: light;
     width: 100%;
 
 }
@@ -65,4 +66,3 @@ button:hover {
     clear: both;
     display: table;
 }
-
