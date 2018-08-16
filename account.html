@@ -12,13 +12,41 @@
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
+        <a href="posts" class="active">Posts</a>
 
-    <div class="container">
-        <h1></h>
-            <div class="container">
-                    <form action="/action">
-                      <label>Enter question</label>
-                      <textarea></textarea>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">my account</a>
+              <a href="#">logout</a>
+            
+              
+            </div>
+          </div> 
+
+          <div class="container">
+    
+
+            <section class="content">
+                <form>
+                    <h1>Questions</h1>
+                    <br>
+                    <br>
+                    <label>Title</label>
+                    <br>
+                    <input type="text" placeholder="enter your question?.">
+                    <br>
+                    <label>Body</label>
+                    <br>
+                    <textarea></textarea>
+                    <button onclick="window.location.href='question.html';">Post Question</button>
+                </form>
+            </section>
+    
+        
+
                         
             
                 
@@ -59,3 +87,9 @@
 
 </body>
 </html>
+
+
+
+
+
+
