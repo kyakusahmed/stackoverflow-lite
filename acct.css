@@ -62,15 +62,6 @@ body{
     margin: 10px 50px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
 .vertical-menu {
     display: flex;
     flex-direction: column;
