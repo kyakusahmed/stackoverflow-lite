@@ -1,40 +1,130 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body{
+    background-image: url(images/png.jpg);
+    background-size: cover;
 
-.container {
     
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-left: 200px;
-}
-.form{
-    width: 500px;
-    margin-left: 500px;
+
 }
 
-input[type=text], select, textarea {
+    
+
+
+
+
+
+
+
+
+
+
+
+.content>.posts {
+    width: 60%;
+}
+
+.content>.posts>ul>li:hover {
+    background-color: antiquewhite;
+}
+
+.content>div>ul>li>div {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content>div>ul>li>div>div {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    width: 40px;
+}
+
+.content>div>ul>li>div>.question {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+.content>div>ul>li>div>div:hover {
+    color: green;
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+.content>div>ul {
+    list-style-type: none;
+}
+
+.content>.posts>div>h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.content>.posts>div {
+    margin: 26px;
+    display: inline-flex;
+}
+
+.content>.posts>div>button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 50px;
+    cursor: pointer;
 }
 
 
+
+
+
+
+
+
+
+.vertical-menu {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 20%;
+    background-color: white;
+    z
+}
+
+.vertical-menu>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-menu>form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.vertical-menu>form>input {
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
