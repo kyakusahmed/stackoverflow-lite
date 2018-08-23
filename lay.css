@@ -2,15 +2,25 @@ body{
   background-image: url(images/png.jpg);
   background-size: cover;
   padding: 0;
-  filter: 40;
+  filter: contrast(3);
 }
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: rgba(0,0,0,0.1);
+  pointer-events: none;
+}
+
+
 
 
 .header{
     padding: 2px;
     text-align: left;
     background: light; 
-    color: hsl(0, 60%, 2%);
+    color: white;
 }
 
 .header h1 {
@@ -114,6 +124,7 @@ body{
   text-align: center;
   font-size: 40px;
   height:300px;
+  color: white;
 }
 .footer {
   position: relative;
