@@ -7,8 +7,6 @@ app = Flask(__name__)
 api = flask_restful.Api(app)
 
 questions = []
-
-
 @app.route('/api/v1/questions', methods=['GET'])
 def get_questions():
     if questions == []:
